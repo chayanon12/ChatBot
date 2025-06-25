@@ -19,14 +19,14 @@ function doPost(e) {
 function findAnswer(msg) {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("ชีต1");
   const data = sheet.getDataRange().getValues();
-  Logger.log(JSON.stringify(data)); // ตรวจสอบว่าอ่านข้อมูลมาได้
+  Logger.log(JSON.stringify(data)); 
 
   for (let i = 1; i < data.length; i++) {
     if (data[i][0].toLowerCase().trim() === msg.toLowerCase().trim()) {
       return data[i][1];
     }
   }
-  return "ขออภัย ไม่พบข้อมูลใน FAQ ค่ะ"; // ตอบแบบชัดๆ
+  return "ขออภัย ไม่พบข้อมูลใน FAQ ค่ะ";
 }
 
 
