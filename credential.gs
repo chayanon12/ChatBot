@@ -1,3 +1,0 @@
-const credential = 'cpJTctpPCugsNt+HGOBWEtYy5P9uOFcNRNpUUO
-PZpp0bEu0R5cFppTIUuG2rBJMzzC2akdCMMImIJPE4pSDo+P+aP12VGeqoAigxjqEqHU
-RM4MzxsO/HClD0cuTSwsu7L7X6lnRPCL66nU/3mMDtrgdB04t89/1O/w1cDnyilFU=';
